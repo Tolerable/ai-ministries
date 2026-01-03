@@ -22,7 +22,7 @@
 // AI-MINISTRIES Supabase - THE ONLY BACKEND
 // DEAD: yjyryzl, bugpycick, wrsomqzd - NEVER USE THESE
 const SUPABASE_URL = 'https://todhqdgatlejylifqpni.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRvZGhxZGdhdGxlanlsaWZxcG5pIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA1NTA3ODEsImV4cCI6MjA3NjEyNjc4MX0.4CQ4ijUlf3Y4OGr5IFrVgCjrqT4dJ0CuEZAt_tlPBig';
+// SUPABASE_ANON_KEY from config.js
 
 // Storage keys
 const TOKEN_KEY = 'aim_auth_token';

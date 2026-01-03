@@ -28,7 +28,7 @@
  */
 
 const PASSPORT_URL = 'https://todhqdgatlejylifqpni.supabase.co';
-const PASSPORT_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRvZGhxZGdhdGxlanlsaWZxcG5pIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjA1NTA3ODEsImV4cCI6MjA3NjEyNjc4MX0.4CQ4ijUlf3Y4OGr5IFrVgCjrqT4dJ0CuEZAt_tlPBig';
+// PASSPORT_KEY from config.js
 
 // Storage keys
 const PASSPORT_TOKEN_KEY = 'aim_passport_token';
