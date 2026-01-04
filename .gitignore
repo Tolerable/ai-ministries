@@ -1,13 +1,5 @@
 # Backup Files
-# Ignore ANY file with hyphen (Rev's backup convention: filename-ANYTHING.ext)
-# Legitimate files use underscores (file_name.ext) or no separator (filename.ext)
-*-*.html
-*-*.py
-*-*.js
-*-*.css
-*-*.json
-*-*.md
-*-*.txt
+# Numbered backups handled by patterns below: *-[0-9][0-9][0-9][0-9].*
 
 # Temporary Files
 *.tmp
@@ -99,3 +91,6 @@ deprecated/
 *.pyd
 .venv/
 .netlify/
+
+# Allow hyphenated Netlify functions
+!netlify/functions/*.js
