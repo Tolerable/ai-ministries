@@ -72,3 +72,30 @@ backups/
 
 # Local Netlify folder
 .netlify
+
+
+# === Added from MASTER_GITIGNORE ===
+# Secrets and keys - NEVER COMMIT
+.env.*
+*.local
+keystore.json
+*_keys.json
+db_keys.json
+config.py
+collab_config.json
+credentials.json
+secrets.json
+*.pem
+*.key
+*-[0-9][0-9][0-9][0-9].*
+*-[0-9][0-9][0-9][0-9]-*.*
+sandbox_versions/
+_archive/
+_backup*/
+old/
+deprecated/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.netlify/
